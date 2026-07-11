@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main(){
+	 
+	double r,b,a,pi;
+	 
+	pi= 3.14159;
+	
+    scanf("%lf",&r);
+    
+    b= r*r;
+    a= b*pi;
+    
+    printf("A=%.4lf\n",a);
+    return 0;
+}
